@@ -1,17 +1,14 @@
-//
-//  LecteurApp.swift
-//  Lecteur
-//
-//  Created by Sergio Wicramachine on 04/07/2024.
-//
+// Application développée par Sergio Wicramachine
+// Date : 5 juillet 2024
 
 import SwiftUI
 
+// Point d'entrée principal de l'application
 @main
 struct LecteurApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView()  // La vue principale de l'application
         }
     }
 }
